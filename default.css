@@ -2,18 +2,30 @@ header {
   text-align: right;
 }
 
+.logo {
+  height: 80px;
+}
+
+:link, body {
+  color: white;
+}
+
 body {
   text-align: center;
   font-family: Source Sans Pro;
+  margin: 0;
 }
 
 h2 {
-  font-family: Source Sans Pro;
   font-weight: 200;
+  color: white;
+  font-size: 46px;
 }
 
 p {
-  padding-bottom: 200px;
+  padding-bottom: 100px;
+  color: white;
+  font-weight: 400;
 }
 
 .demobutton {
