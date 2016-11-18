@@ -6,7 +6,7 @@ header {
   height: 80px;
 }
 
-:link {
+:link, body {
   color: white;
 }
 
@@ -17,7 +17,6 @@ body {
 }
 
 h2 {
-  font-family: Source Sans Pro;
   font-weight: 200;
   color: white;
   font-size: 46px;
