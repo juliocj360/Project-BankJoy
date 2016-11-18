@@ -6,8 +6,9 @@ header {
   height: 80px;
 }
 
-:link, body {
+:link, body, .demobutton {
   color: white;
+  text-decoration: none;
 }
 
 body {
@@ -29,7 +30,12 @@ p {
 }
 
 .demobutton {
-  padding-bottom: 40px;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 25px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(79,109,224);
 }
 
 .background {
