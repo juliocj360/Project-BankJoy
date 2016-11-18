@@ -5,6 +5,8 @@
     <title>BankJoy</title>
     <link rel="stylesheet" href="default.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400" rel="stylesheet">
+    <script type="text/javascript" src="http://momentjs.com/downloads/moment.js">
+    </script>
   </head>
   <body>
     <div class="background">
@@ -16,7 +18,8 @@
     <img src="https://www.bankjoy.com/assets/images/logos/logo-light@2x.png" alt="img" class="logo" />
     <h2>Mobile banking for Credit Unions</h2>
     <p>
-      SCHEDULE A DEMO TODAY AND DELIVER MODERN MOBILE BANKING TO YOUR MEMBERS BY <script src="deliverydate.js">
+      SCHEDULE A DEMO TODAY AND DELIVER MODERN MOBILE BANKING TO YOUR MEMBERS BY <script type="text/javascript">
+        document.write(moment().add(30, 'days').format('MMMM Do').toUpperCase());
       </script>.
     </p>
     <div class="demobutton">
