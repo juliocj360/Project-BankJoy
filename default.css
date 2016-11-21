@@ -12,7 +12,7 @@ header {
   height: 80px;
 }
 
-:link, body, .demobutton {
+:link, body, .demo-button {
   color: white;
   text-decoration: none;
   font-family: Source Sans Pro;
@@ -44,7 +44,7 @@ button {
   background-color: rgb(79,109,224);
 }
 
-.demobutton {
+.demo-button {
   margin: 0 auto;
   border-radius: 25px;
   width: 200px;
@@ -61,7 +61,7 @@ button {
   }
 }
 
-.demobutton:hover {
+.demo-button:hover {
   animation-name: pulse;
   animation-duration: .5s;
   animation-iteration-count: 1;
@@ -81,7 +81,7 @@ button {
   height: 100%;
 }
 
-.centerphone {
+.center-phone {
   height: 600px;
   position: absolute;
   z-index: 10;
@@ -91,14 +91,14 @@ button {
   filter: drop-shadow(0px 30px 30px black);
 }
 
-.leftphone {
+.left-phone {
   height: 550px;
   position: relative;
   z-index: 5;
   padding-top: 50px;
 }
 
-.rightphone {
+.right-phone {
   height: 550px;
   position: relative;
   z-index: 5;
